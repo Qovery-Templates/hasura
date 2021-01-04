@@ -1,5 +1,5 @@
 application:
-  name: CHANGEME
+  name: hasura
   project: CHANGEME
   publicly_accessible: true
 databases:
@@ -9,6 +9,6 @@ databases:
 routers:
 - name: main
   routes:
-  - application_name: CHANGEME
+  - application_name: hasura
     paths:
     - /*
